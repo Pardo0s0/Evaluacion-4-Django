@@ -1,0 +1,34 @@
+{% extends 'core/hf.html' %}
+{% load static %}
+{% block contenido %}
+
+{% if posts %}
+{% for productos in posts %}
+
+
+{% if forloop.first %}<div class="row">{% endif %}
+    <div class="row row-col g-4">
+        <div class="col">
+            <div class="card h-100">
+                <img class="card-img-top" height="180" src="{% static 'core/img/logo.png' %}"
+                    alt="{{productos.nombre}}">
+                <div class="card-body">
+                    <hr />
+                    <h6 class="card-subtitle">Nombre:{{productos.nombre}}</h6>
+                    <p class="card-text">Categoría: {{productos.categoria}}</p>
+                    <p class="card-text">Precio: {{productos.precio}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% if forloop.counter|divisibleby:2 %}
+</div>
+<div class="row">{% endif %}
+    {% if forloop.last %}</div>{% endif %}
+
+
+
+{% endfor %}
+{% else %}
+{% endif %}
+{% endblock %}

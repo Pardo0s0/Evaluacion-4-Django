@@ -1,0 +1,251 @@
+*{
+    user-select: none;
+}
+#carrocompra {
+    padding-left: 6cm;
+    padding-right: 6cm;
+    padding-top: 3cm;
+    padding-bottom: 7.47cm;
+    background-color: lightgray;
+}
+
+#carrocompra img {
+    width: 80px;
+}
+@media screen and (max-width:1980px) {
+   .carta1{
+       width: 13rem;
+   }
+   #webpay>img{
+    width: 100%;
+}
+}
+@media screen and (max-width:1150px) {
+    .menu-btn {
+        display: block;
+    }
+
+    .menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 300px;
+        height: 100vh;
+        background: rgb(121, 121, 121);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.5s ease;
+        transform: translateX(-100%);
+    }
+
+    .menu li {
+        margin: 15px 0;
+    }
+
+    .menu.active {
+        transform: translateX(0%);
+    }
+
+    #mapa>iframe {
+        display: none;
+    }
+
+    #contactocontenido {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #formulario {
+        display: flex;
+        justify-content: center;
+    }
+    .carta1{
+        width: 10rem;
+    }
+    #carrosul2{
+        width: 100%;
+    }
+    #webpay>img{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width:850px) {
+    #webpay>img{
+        width: 3cm;
+    }
+    #menupie{
+        font-size: 11px;
+    }
+    #logopie>h1{
+        font-size: 20px;
+    }
+    #footer{
+        display: flex;
+        align-items: center;
+    }
+    .carta1{
+        width: 10rem;
+    }
+    #infomarcas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .carta{
+        padding-bottom: 25px;
+    }
+}
+
+
+.title{
+    margin-bottom: 5vh;
+}
+.card{
+    margin: auto;
+    max-width: 950px;
+    width: 90%;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1rem;
+    border: transparent;
+}
+@media(max-width:767px){
+    .card{
+        margin: 3vh auto;
+    }
+}
+.cart{
+    background-color: #fff;
+    padding: 4vh 5vh;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+@media(max-width:767px){
+    .cart{
+        padding: 4vh;
+        border-bottom-left-radius: unset;
+        border-top-right-radius: 1rem;
+    }
+}
+.summary{
+    background-color: #ddd;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 4vh;
+    color: rgb(65, 65, 65);
+}
+@media(max-width:767px){
+    .summary{
+    border-top-right-radius: unset;
+    border-bottom-left-radius: 1rem;
+    }
+}
+.summary .col-2{
+    padding: 0;
+}
+.summary .col-10
+{
+    padding: 0;
+}.row{
+    margin: 0;
+}
+.title b{
+    font-size: 1.5rem;
+}
+.main{
+    margin: 0;
+    padding: 2vh 0;
+    width: 100%;
+}
+.col-2, .col{
+    padding: 0 1vh;
+}
+a{
+    padding: 0 1vh;
+}
+.close{
+    margin-left: auto;
+    font-size: 0.7rem;
+}
+#carrito>img{
+    width: 3.5rem;
+}
+.back-to-shop{
+    margin-top: 4.5rem;
+}
+h5{
+    margin-top: 4vh;
+}
+hr{
+    margin-top: 1.25rem;
+}
+form{
+    padding: 2vh 0;
+}
+select{
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    padding: 1.5vh 1vh;
+    margin-bottom: 4vh;
+    outline: none;
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+}
+input{
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    padding: 1vh;
+    margin-bottom: 4vh;
+    outline: none;
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+}
+input:focus::-webkit-input-placeholder
+{
+      color:transparent;
+}
+.btn{
+    background-color: #000;
+    border-color: #000;
+    color: white;
+    width: 100%;
+    font-size: 0.7rem;
+    margin-top: 4vh;
+    padding: 1vh;
+    border-radius: 0;
+}
+.btn:focus{
+    box-shadow: none;
+    outline: none;
+    box-shadow: none;
+    color: white;
+    -webkit-box-shadow: none;
+    transition: none; 
+}
+.btn:hover{
+    color: white;
+}
+a{
+    color: black; 
+}
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+ #code{
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.253) , rgba(255, 255, 255, 0.185)), url("https://img.icons8.com/small/16/000000/long-arrow-right.png");
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: center;
+}
+#carrito{
+    padding-top: 4cm;
+    padding-bottom: 2cm;
+}
+
+.formo>h4{
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

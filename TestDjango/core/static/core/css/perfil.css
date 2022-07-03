@@ -1,0 +1,32 @@
+
+    
+    #info-perfil{
+      display: flex;
+      justify-content: center;
+      padding: 12px 10% 12px 10%; 
+      padding-top: 1cm;
+      background-color: lightgrey;
+      padding-bottom: 2cm;
+    }
+    
+    #imagen-perfil{
+      display: flex;
+      justify-content: center;
+      background-color: lightgray;
+      padding-top: 1cm;
+    }
+    
+    #switch{
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      align-items: center;
+    }
+    #titulosub{
+      display: flex;
+      justify-content: center;
+    }
+    #Subscribsion{
+        backdrop-filter: blur(4px);
+    }
+    

@@ -1,0 +1,85 @@
+#tabla, #crud1, #registro,#login,#logout,#prueba,#info2{
+  
+    background-color: white;
+    padding: 2cm;
+    border-radius: 15px;
+    width: 100%;
+    color: black;
+    border-width: 5px;
+  border-style: solid;
+  border-color: black;
+}
+#tabla a{
+    text-decoration: none;
+    color: black;
+}
+
+#carrusel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 4cm;
+  padding-bottom: 1cm;
+}
+
+#carrusel2 {
+  width: 50%;
+}
+#info {
+  padding-top: 1cm;
+  padding-bottom: 1cm;
+  
+}
+
+#infomarcas {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1cm;
+  padding-bottom: 1cm;
+}
+#Contacto {
+ 
+  backdrop-filter: blur(2px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1cm;
+}
+
+#contactocontenido {
+  
+  display: flex;
+  justify-content: space-between;
+}
+#todowili{
+  
+  margin-top: 50%;
+  
+}
+#info2 h1 {
+  display: flex;
+  justify-content: center;
+  
+}
+
+#info2 {
+  padding-top: 2cm;
+  padding-bottom: 1cm;
+  background-color: lightgray;
+  
+}
+#infodirection {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 1cm;
+  padding-left: 1cm;
+  padding-right: 1cm;
+}
+
+
+
+
+
